@@ -54,6 +54,12 @@ function App() {
         style = {{backgroundColor: "Purple"}}>
           Purple
         </button> 
+        <button 
+        onClick={() => setColor("Violet")}
+        className="outline-none px-4 py-1 rounded-full text-whiteYellow shadow-lg"
+        style = {{backgroundColor: "Violet"}}>
+          Violet
+        </button> 
         
       </div>
     </div>
